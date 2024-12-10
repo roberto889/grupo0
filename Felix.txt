@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <title>Canción que me gusta</title>
+</head>
+
+<body>
+<pre>
+Con cien cañones por banda
+...
+un velero bergantín
+</pre>
+
+</body>
+</html>

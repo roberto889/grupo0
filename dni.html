@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0039)https://www.holamundo.es/lenguaje/html/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Hola Mundo HTML</title>
+
+<meta name="title" content="Hola Mundo HTML">
+<meta name="description" content="Hola Mundo en HTML. Código, descripción del lenguaje HTML, ejemplos y web oficial.">
+<meta name="keywords" content="html,holamundo, hola mundo, ejemplos, manuales, artículos, tutoriales">
+<!--link href="./HolaMundoHTML_files/main.css" rel="stylesheet" type="text/css"-->
+
+
+<script languaje="javascript" type="text/javascript">
+function calcletra(dni)
+{
+var JuegoCaracteres="TRWAGMYFPDXBNJZSQVHLCKET";
+var Posicion= dni % 23;
+var Letra = JuegoCaracteres.charAt(Posicion);
+return Letra;
+}
+
+function dame_fecha()
+{
+date=new Date;
+return date.getFullYear().toString()+'-'+("0"+(date.getMonth()+1)).slice(-2).toString()+'-'+("0"+(date.getDate())).slice(-2).toString()+'&password=rqM6HkD86gkW';
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Ejemplo de javascript</h1><br>
+
+<form name="letradni" action="">
+DNI:<br>
+<input type="text" name="numdni" maxlenght="9" size="9">
+<input type="text" name="letra" size="1" readonly>
+<input type="button" value="Comprobar" onclick="this.form.letra.value=calcletra(this.form.numdni.value);">
+<br>
+FECHA:
+<input type="text" name="fecha" size="10" >
+<input type="button" value="Generar" onclick="this.form.fecha.value=dame_fecha();">
+
+</form>
+
+</body>
+</html>

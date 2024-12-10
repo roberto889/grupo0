@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://www.html6.es/t6_SVG.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="description" content="Entra para conocer todo y lo más nuevo sobre la creación y uso de las imágenes vectoriales de HTML5">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SVG</title>
+	<link rel="stylesheet" href="./SVG_files/estilo2.css" type="text/css">
+
+	<style type="text/css">
+	pre{
+		font-size:14px;
+	}
+	#contenido1,#contenido2,#contenido3,#contenido4,#contenido5,#contenido6{
+		overflow:hidden;
+		height:94px;
+		padding-top:5px;
+		margin-bottom:8px;
+		margin-left:7px;
+		background-color:rgba(255,255,255,0.45);
+		border-radius:0px 20px 20px 0px;
+	}
+	#bandera1,#bandera2,#bandera3,#bandera4,#bandera5,#bandera6{
+			float:left;
+			padding-right:12px;
+			padding-left:5px;
+	}
+	#parrafo1{
+		margin-top:-5px;
+	}
+	#parrafo2,#parrafo3,#parrafo4,#parrafo5,#parrafo6{
+		margin-top:-13px;
+	}
+	ul#lista{
+		margin-bottom:33px;
+	}
+	
+	</style>	
+</head>
+
+<body>
+<div id="franja_negra">
+	<div class="caja_flex_justify">
+	<div id="volver">
+			<a href="https://www.html6.es/index.html#punto24">Volver</a>
+	  	</div>
+	<div id="foto">
+		<a href="https://www.youtube.com/channel/UC-BnvAuHbsJ3DTslnwt1J1Q/videos" target="_blank"><img src="./SVG_files/micanalyoutube.png"></a>
+	</div>	
+	</div>
+</div>
+
+<header>
+	<div id="logos_cortados1"><img src="./SVG_files/logos_cortados1.png"></div>
+	<div id="cabecera">
+	<div id="logo_header">
+		<img src="./SVG_files/logo_html6_es.png">
+	</div>
+	<div id="autor">
+		<div id="titular"><h1>Imágenes vectoriales SVG</h1></div>
+		<div id="nombres"><span class="profesores">Profesores:</span><span class="autor">JAB y Ester Torres</span></div>
+	</div>
+
+</div>		
+</header>
+
+<div id="indice2">
+<div id="indice">
+<div id="titulo_indice_contenido"><img src="./SVG_files/indice_cortado.png" width="100px"></div>
+<div id="lista">
+	<li><a href="https://www.html6.es/t6_SVG.html#punto1">¿Qué son las imágenes SVG?</a></li>
+
+	<li><a href="https://www.html6.es/t6_SVG.html#punto2">Varios ejemplos simples</a></li>
+
+	<li><a href="https://www.html6.es/t6_SVG.html#punto3">La etiqueta &lt;svg&gt;</a></li>
+
+	<li><a href="https://www.html6.es/t6_SVG.html#punto4">Un truco útil</a></li>
+</div>	
+</div></div>
+
+
+<section id="contingut">	
+<p id="punto1"></p>
+
+<div id="titulillo"><h2>¿Qué son las imágenes SVG?</h2></div>
+
+Con el elemento <b>SVG</b> (Scalable Vector Graphics) podemos crear imágenes vectoriales redimensionables de manera dinámica o interactiva utilizando diferentes atributos. Al convertirse en 2001 en una recomendación del W3C ya es aceptado en la mayoría de navegadores (Firefox desde la versión 1.5, Opera desde su versión 8, Chrome y Safari de manera conjunta, y también increiblemente Internet Explorer, desde su versión 9).<br><br>
+Estos atributos son <b>rect</b> (para crear rectángulos), <b>circle</b> (que no hace falta traducir), <b>line</b>, <b>ellipse</b>, <b>polygon</b>, <b>polyline</b> (multi-lineas) y <b>text</b>.<br>
+Antes de tratarlos un poco más extensamente, vamos a presentar algunos ejemplos rápidos y socorridos, ... como no ... con banderas de algunos países, ya que la mayoría son fáciles de dibujar.
+
+
+<p id="punto2"></p>
+
+<div id="titulillo"><h2>Varios ejemplos simples</h2></div>
+
+Japón
+<div id="contenido1">
+	<div id="bandera1">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+			<rect width="150" height="90" fill="white" stroke="black" stroke-width="1"></rect>
+			<circle cx="75" cy="45" r="35" fill="red"></circle>
+		</svg>
+	</div>
+	<div id="parrafo1">
+	<pre>&lt;svg width="150" height="90" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect width="150" height="90"  fill="white" stroke="black" stroke-width="1"/&gt;
+  &lt;circle cx="75" cy="45" r="35" fill="red"/&gt;
+&lt;/svg&gt;
+	</pre>
+	</div>
+</div>
+
+
+Italia
+<div id="contenido2">
+	<div id="bandera2">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+			<rect width="150" height="90" fill="green" stroke="black" stroke-width="1"></rect>
+			<rect x="50" y="1" width="50" height="88" fill="white"></rect>
+			<rect x="100" y="1" width="49" height="88" fill="red"></rect>
+		</svg>
+	</div>
+	<div id="parrafo2">
+	<pre>&lt;svg width="150" height="90" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect width="150" height="90"  fill="green" stroke="black" stroke-width="1"/&gt;
+  &lt;rect x="50" y="1" width="50" height="90" fill="white"/&gt;
+  &lt;rect x="100" y="1" width="50" height="90" fill="red"/&gt;
+&lt;/svg&gt;
+	</pre>
+	</div>
+</div>
+
+Alemania
+<div id="contenido3">
+	<div id="bandera3">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+			<rect width="150" height="90" fill="black" stroke="black" stroke-width="1"></rect>
+			<rect x="1" y="30" width="148" height="30" fill="red"></rect>
+			<rect x="1" y="60" width="148" height="29" fill="yellow"></rect>
+		</svg>
+	</div>
+	<div id="parrafo3">
+<pre>&lt;svg width="150" height="90" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect width="150" height="90"  fill="black" stroke="black" stroke-width="1"/&gt;
+  &lt;rect x="0" y="30" width="150" height="30" fill="red"/&gt;
+  &lt;rect x="0" y="60" width="150" height="30" fill="yellow"/&gt;
+&lt;/svg&gt;
+</pre>
+	</div>
+</div>
+
+Catalunya
+<div id="contenido6">
+	<div id="bandera6">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+		<rect width="150" height="90" fill="yellow" stroke="black" stroke-width="1"></rect>
+		<rect x="0" y="10" width="150" height="10" fill="red"></rect>
+		<rect x="0" y="30" width="150" height="10" fill="red"></rect>
+		<rect x="0" y="50" width="150" height="10" fill="red"></rect>
+		<rect x="0" y="70" width="150" height="10" fill="red"></rect>
+		</svg>
+	</div>
+	<div id="parrafo6">
+<pre>  &lt;rect width="150" height="90"  fill="yellow" stroke="black" stroke-width="1"/&gt;
+  &lt;rect x="0" y="10" width="150" height="10" fill="red"/&gt;
+  &lt;rect x="0" y="30" width="150" height="10" fill="red"/&gt;
+  &lt;rect x="0" y="50" width="150" height="10" fill="red"/&gt;
+  &lt;rect x="0" y="70" width="150" height="10" fill="red"/&gt;
+</pre>
+	</div>
+</div>
+
+Noruega
+<div id="contenido4">
+	<div id="bandera4">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+			<rect width="150" height="90" fill="red" stroke="black" stroke-width="1"></rect>
+			<rect x="38" y="1" width="30" height="88" fill="white"></rect>
+			<rect x="1" y="33" width="148" height="30" fill="white"></rect>
+			<rect x="45" y="0" width="16" height="90" fill="blue"></rect>
+			<rect x="0" y="40" width="150" height="16" fill="blue"></rect>
+		</svg>
+	</div>
+	<div id="parrafo4">
+<pre>  &lt;rect width="150" height="90"  fill="red" stroke="black" stroke-width="1"/&gt;
+  &lt;rect x="38" y="0" width="30" height="90" fill="white"/&gt;
+  &lt;rect x="0" y="33" width="150" height="30" fill="white"/&gt;
+  &lt;rect x="45" y="0" width="16" height="90" fill="blue"/&gt;
+  &lt;rect x="0" y="40" width="150" height="16" fill="blue"/&gt;
+</pre>
+	</div>
+</div>
+
+Suiza
+<div id="contenido5">
+	<div id="bandera5">
+		<svg width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+		<rect width="150" height="90" fill="red" stroke="black" stroke-width="1"></rect>
+		<rect x="40" y="33" width="70" height="24" fill="white"></rect>
+		<rect x="63" y="10" width="24" height="70" fill="white"></rect>
+		</svg>
+	</div>
+	<div id="parrafo5">
+<pre>&lt;svg width="150" height="90" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;rect width="150" height="90"  fill="red" stroke="black" stroke-width="1"/&gt;
+  &lt;rect x="40" y="33" width="70" height="24" fill="white"/&gt;
+  &lt;rect x="63" y="10" width="24" height="70" fill="white"/&gt;
+&lt;/svg&gt;
+</pre>
+	</div>
+</div>
+
+
+<br>
+Para el dibujo de estas banderas se han utilizado únicamente rectángulos (<b>rect</b>) y un círculo (<b>circle</b>) dentro de sus respectivos (<b>svg</b>), pero existen otros atributos muy interesantes.
+
+
+	<br>
+ 
+
+
+<p id="punto3"></p>
+
+<div id="titulillo"><h2>La etiqueta &lt;svg</h2>&gt;</div>
+
+<div id="titulo_peque">&lt;svg&gt;</div>
+Lo primero y obligatorio es agrupar todos los atributos dentro de un <b>&lt;svg&gt;</b>.<br>
+Cabe decir que en los casos de Catalunya y Noruega (de los ejemplos superiores) los '<b>rect</b>' utilizados no se han encerrado en un <b>&lt;svg&gt;</b> para no romper la maquetación que iguala a todas las banderas, pero para que su código sea correcto debe estar contenido entre un <b>&lt;svg&gt;</b> y un <b>&lt;/svg&gt;</b>.
+<div class="codigo">
+<pre>&lt;svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;/svg&gt;
+</pre>
+</div>
+En este caso se crea un "lienzo" de 300 píxeles de ancho por 200 píxeles de alto. Si dentro de estos 2 tags no se introduce ningún atributo no se dibuja nada.
+
+
+
+<div id="titulo_peque">rect</div>
+Para la creación de rectángulos y cuadrados tenemos el atributo rect, que tiene las siguientes propiedades (las que no se utilicen se pueden omitir):
+<ul id="lista">
+<li><b>x</b>: Coordenada horizontal desde donde se va a empezar a dibujar el rectángulo.</li>
+<li><b>y</b>: Coordenada vertical desde donde se va a empezar a dibujar el rectángulo.</li>
+<li><b>rx</b>: Suavidad de los bordes horizontales (el valor 0 equivale a esquinas puntiagudas "no redondeadas")</li>
+<li><b>ry</b>: Suavidad de los bordes verticales (el valor 0 equivale a esquinas puntiagudas "no redondeadas")</li>
+<li><b>width</b>: Anchura del rectángulo.</li>
+<li><b>height</b>: Altura del rectángulo.</li>
+<li><b>fill</b>: Color del relleno (en código hexadecimal o escribiendo directamente el nombre del color)</li>
+<li><b>stroke</b>: Color de la línea que rodea al rectángulo.</li>
+<li><b>stroke-width</b>: Grosor de la línea (en píxeles).</li>
+<li><b>opacity</b>: Opacidad (0 es transparencia total y 1 opacidad total).</li>
+</ul>
+
+<div id="codigo_largo">
+<pre>&lt;rect x="0" y="0" rx="12" ry="12" width="60" heigh="60" fill="gold" stroke="green" stroke-width="1" opacity="0.8"/&gt;
+</pre>
+</div>
+
+<svg width="160" height="80" xmlns="http://www.w3.org/2000/svg">
+<rect x="30" y="5" rx="12" ry="12" width="60" height="60" fill="gold" stroke="green" stroke-width="1" opacity="0.8"></rect>
+</svg>
+<br>
+
+En este caso se trataría de un cuadrado de unas dimensiones de 60 píxeles de ancho por 60 píxeles de alto, que empieza a dibujar en las coordenadas 0/0 (tomando como inicio la esquina superior izquierda donde está ubicado el svg), con unos ángulos suaves y redondeados (12). Con un color oro (gold) de relleno, un grosor de 1 píxel de color verde y todo con una transparencia del 80%.
+
+
+
+<div id="titulo_peque">circle</div>
+Para la creación de círculos (no elipses, para los que existe un atributo propio):
+<ul id="lista">
+<li><b>cx</b>: Coordenada horizontal del centro del círculo.</li>
+<li><b>cy</b>: Coordenada vertical del centro del círculo.</li>
+<li><b>r</b>: Radio del círculo (es la mitad de su anchura o altura total).</li>
+<li><b>fill</b>: Color del relleno.</li>
+<li><b>stroke</b>: Color de la línea que rodea al círculo).</li>
+<li><b>stroke-width</b>: Grosor de la línea (en píxeles).</li>
+<li><b>opacity</b>: Opacidad (0 es transparencia total y 1 opacidad total).</li>
+</ul>
+
+<div class="codigo">
+<pre>&lt;circle cx="100" cy="100" r="45" fill="olive" stroke="black" stroke-width="1" opacity="0.9"/&gt;
+</pre>
+</div>
+<svg width="150" height="120" xmlns="http://www.w3.org/2000/svg">
+<circle cx="75" cy="55" r="45" fill="olive" stroke="black" stroke-width="1" opacity="0.9"></circle>
+</svg><br>
+Círculo con un radio de 45px (por lo tanto medirá 90 píxeles de ancho y alto), ubicado el centro del círculo en las coordenadas 100/100. Con un color 'oliva' de relleno, un grosor de 1 píxel de color negro y todo con una opacidad del 90%.
+
+
+
+
+<div id="titulo_peque">ellipse</div>
+Para la creación de círculos (no elipses, para la que existe un atributo propio):
+<ul id="lista">
+<li><b>cx</b>: Coordenada horizontal del centro de la elipse.</li>
+<li><b>cy</b>: Coordenada vertical del centro de la elipse.</li>
+<li><b>rx</b>: Radio horizontal de la elipse (la mitad de su anchura total).</li>
+<li><b>ry</b>: Radio vertical de la elipse (la mitad de su altura total).</li>
+<li><b>fill</b>: Color del relleno.</li>
+<li><b>stroke</b>: Color de la línea que rodea a la elipse.</li>
+<li><b>stroke-width</b>: Grosor de la línea.</li>
+<li><b>opacity</b>: Opacidad (0 es transparencia total y 1 opacidad total).</li>
+</ul>
+
+<div class="codigo">
+<pre>&lt;ellipse cx="100" cy="100" rx="50" ry="25" fill="purple" stroke="black" stroke-width="1"/&gt;
+</pre>
+</div>
+<svg width="150" height="80" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="83" cy="35" rx="50" ry="25" fill="purple" stroke="black" stroke-width="1"></ellipse>
+</svg><br>
+
+Ellipse con un radio horizontal de 50px (por lo tanto mediría 100 píxeles de ancho), y un radio vertical de 25 (tendrá una altura total de 50 píxeles) ubicado (el centro de la elipse) en las coordenadas 100/100. Con un color púrpura de relleno y un grosor de 1 píxel de color negro (sin transparencia, ya que se ha omitido -opacity-).
+
+
+
+<div id="titulo_peque">line</div>
+Se puedan crear líneas rectas, pudiendo especificar el tipo de línea:
+<ul id="lista">
+<li><b>x1</b>: Coordenada horizontal inicial desde donde se empezará a dibujar la línea.</li>
+<li><b>x2</b>: Coordenada horizontal final hasta donde llegará la línea.</li>
+<li><b>y1</b>: Coordenada vertical inicial desde donde se empezará a dibujar la línea.</li>
+<li><b>y2</b>: Coordenada vertical final hasta donde se dibujará la línea.</li>
+<li><b>stroke</b>: Color de la línea.</li>
+<li><b>stroke-width</b>: Grosor de la línea.</li>
+<li><b>stroke-dasharray</b>: Tipo de línea.</li>
+<li><b>opacity</b>: Opacidad (0 es transparencia total y 1 opacidad total).</li>
+</ul>
+
+<div id="codigo_largo">
+<pre>&lt;line x1="0" y1="0" x2="260" y2="40" stroke="fuchsia" stroke-width="4" stroke-dasharray="18,7,9,20"/&gt;
+</pre>
+</div>
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+<line x1="38" y1="10" x2="300" y2="50" stroke="fuchsia" stroke-width="4" stroke-dasharray="18,7, 9, 20"></line>
+<line x1="38" y1="80" x2="84" y2="80" stroke="fuchsia" stroke-width="4" stroke-dasharray="18,7, 9, 20"></line>
+<text x="40" y="93" style="font-size:12px">
+18
+</text>
+<text x="58" y="76" style="font-size:12px">
+7
+</text>
+<text x="64" y="93" style="font-size:12px">
+9
+</text>
+<text x="74" y="76" style="font-size:12px">
+20
+</text>
+</svg><br>
+Línea que va desde la posición 0,0 (esquina superior izquierda definida por el svg) hasta 260 píxeles a la derecha y 40 hacia abajo (osea, será una línea diagonal) de un color fucsia de 4 píxeles de grosor y con un tipo de línea discontinua.<br>
+Los 4 valores de stroke-dasharray (18,7,  9,29) indican <b>(por parejas)</b> la continuidad de la línea. Así, los dos primeros valores (18,7) indican, el primero, un tramo visible de una longitud de 18 píxeles, seguido de un tramo de linea no visible de 7 píxeles. Seguidamente, los dos valores siguientes (9,20), indican un tramo de 9 píxeles de línea visible, seguido de 20 píxeles de tramo no visible, repitiendo dichos valores hasta el final de la longitud de la línea.
+
+
+
+	<br>
+ 
+
+
+
+<div id="titulo_peque">polyline</div>
+Con más potencia que line, con polyline es posible crear múltiples líneas que normalmente forman figuras con una forma abierta.
+<ul id="lista">
+<li><b>points</b>: Coordenadas (en parejas) que describen la coordenada y vertical de cada punto.</li>
+<li><b>fill</b>: Indica el color del relleno -si tiene- (si no se desea relleno, se indica -none-).</li>
+<li><b>stroke</b>: Color de la línea.</li>
+<li><b>stroke-width</b>: Grosor de la línea.</li>
+</ul>
+<div id="codigo_muy_largo">
+<pre>&lt;polyline points="0,90, 10,90, 10,40, 40,10, 50,20, 50,10, 60,10, 60,30, 70,40, 70,90, 80,90" fill="none" stroke="black" stroke-width="3"/&gt;
+</pre>
+</div>
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+<polyline points="0,90, 10,90, 10,40, 40,10, 50,20, 50,10, 60,10, 60,30, 70,40, 70,90, 80,90" fill="none" stroke="black" stroke-width="3" transform="translate(30,0)"></polyline>;
+</svg><br>
+Con estas 10 líneas se dibuja el contorno de una casa. Las líneas se describen <b>por parejas</b>, siendo los valores del primer punto (0,90, coordenada situada en la esquina inferior izquierda del espacio definido por el svg), que describe una línea que se extiende hasta las coordenadas descritas en el siguiente par de valores (10,90). Es decir, la primera línea se extiende desde la coordenada (x=0/y=90) hasta la coordenada (x=10/y=90).<br>
+Así, estos primeros 4 valores dibujan una línea horizontal de 10 píxeles. Para todo este conjunto de líneas se utiliza un color negro de 3 píxeles de grosor sin ningún tipo de relleno.
+
+
+
+
+<div id="titulo_peque">polygon</div>
+Con más potencia que line y muy parecido a polyline, con polygon es posible crear figuras de forma normalmente cerradas, a diferencia que polyne, que está más orientado a figuras abiertas.
+<ul id="lista">
+<li><b>points</b>: Coordenadas (en parejas) que describen la coordenada y vertical de cada punto.</li>
+<li><b>fill</b>: Indica el color del relleno (si no se desea, se indica -none-).</li>
+<li><b>fill-opacity</b>: Indica si tiene relleno (si no se desea relleno, se indica -none-).</li>
+<li><b>stroke</b>: Color de la línea (si no se desea líneas, se indica -none-)</li>
+<li><b>stroke-width</b>: Grosor de la línea.</li>
+<li><b>stroke-opacity</b>: Opacidad de la línea (de 0 a 1).</li>
+</ul>
+<div id="codigo_muy_largo">
+<pre>&lt;polygon points="50,0, 82,100, 0,37, 100,37, 20,100, 50,0" fill="gold" stroke="black" stroke-width="3"/&gt;
+&lt;polygon points="50,0, 62,37, 100,37, 70,61, 82,100,  50,75,  20,100,  31,61, 0,37,  39,37,  50,0" fill="gold" stroke="black" stroke-width="3"/&gt;
+</pre>
+</div><br>
+<svg width="350" height="110" xmlns="http://www.w3.org/2000/svg">
+<polygon points="50,0, 82,100, 0,37, 100,37, 20,100, 50,0" fill="gold" stroke="black" stroke-width="3" transform="translate(30,0)"></polygon>;
+<polygon points="50,0, 62,37, 100,37, 70,61, 82,100, 50,75, 20,100, 31,61, 0,37, 39,37, 50,0" fill="gold" stroke="black" stroke-width="3" transform="translate(180,0)"></polygon>;
+</svg><br>
+<br>
+Con estos dos polígonos se representan dos estrellas basadas en una misma forma. El primer polígono compuesto por 5 líneas y el segundo, algo más elaborado, compuesto por 10 líneas.<br>Las líneas se describen y dibujan siempre <b>por parejas</b>. Por ejemplo, en la primera estrella, los valores del primer punto (50,0: situado en la esquina superior central) describe una línea que va hasta las coordenadas descritas en el siguiente par de valores (82,100). Así, estos primeros 4 valores dibujan una línea en diagonal que va desde el punto superior de la estrella hasta su extremo inferior derecho. Ambos polígonos tienen definido un relleno (fill) y una línea con color (negro) y grosor (3), por lo que podemos ver que, aunque comparten la misma forma, ambas estrellas son bastante diferentes en cuanto a su construcción.<br><br>
+Sin embargo, si en ambos polígonos sustituimos stroke="black" por stroke="none", el resultado visual de ambos polígonos es idéntico:
+<br><br>
+
+<svg width="350" height="110" xmlns="http://www.w3.org/2000/svg">
+<polygon points="50,0, 82,100, 0,37, 100,37, 20,100, 50,0" fill="gold" stroke="none" stroke-width="3" transform="translate(30,0)"></polygon>;
+<polygon points="50,0, 62,37, 100,37, 70,61, 82,100, 50,75, 20,100, 31,61, 0,37, 39,37, 50,0" fill="gold" stroke="none" stroke-width="3" transform="translate(180,0)"></polygon>;
+</svg>
+
+
+
+
+
+
+<div id="titulo_peque">text</div>
+Permite "dibujar" texto (vectorial), pudiendo personalizar la rotación de cada una de las letras que componen dicho texto.<br>
+<ul id="lista">
+<li><b>font-family</b>: Indica el tipo de letra a utilizar (especificado en el código CSS).</li>
+<li><b>font-size</b>: Tamaño del texto.</li>
+<li><b>font-weight</b>: Estilo del texto (bold..).</li>
+<li><b>fill</b>: Color del relleno del texto.</li>
+<li><b>stroke</b>: Color de las líneas (si no se desean líneas, se indica -none-)</li>
+<li><b>stroke-width</b>: Grosor de las líneas que dibujan el texto.</li>
+<li><b>x</b>: Coordenada horizontal del texto.</li>
+<li><b>y</b>: Coordenada vertical del texto.</li>
+<li><b>dx</b>: Coordenada horizontal de inicio tomando como punto de partidas el valor x.</li>
+<li><b>dy</b>: Coordenada vertical de inicio tomando como punto de partidas el valor y.</li>
+<li><b>rotate</b>: Grados de rotación del texto (pudiendo especificar la rotación de cada una de las letras).</li>
+</ul>
+<div class="codigo">
+<pre>&lt;text x="30" y="35" rotate="17 0 -9 11 10 -3" fill="red" stroke="white" stroke-width="2"&gt;
+  Javier
+&lt;/text&gt;
+</pre>
+</div>
+<svg width="350" height="64" xmlns="http://www.w3.org/2000/svg">
+<text x="30" y="33" font-family="font1_negrita" font-size="50px" rotate="17 0 -9 11 10 -3" fill="red" stroke="white" stroke-width="2">
+Javier
+</text>
+</svg><br>
+Con este cógido se crea un imagen vectorial de un texto en el que se han definido una serie de parámetros comunes para todo el texto (tipo de letra, tamaño, colores y posición), al mismo tiempo que se definido un grado de rotación diferente para cada una de las letras que forman el texto (siendo 17º para la letra "J", 0 grados para la "a" o bien -9º, que realiza una rotación de la letra "v" hacia la izquierda.<br><br>
+Aunque lo más sorprendente de ésto es que este texto (vectorial) sigue siendo texto y que por lo tanto se puede seleccionar como si de texto plano se tratase ... <b>inténtalo</b> que es gratis ...
+<br><br>
+.. y ya por último,
+
+
+	<br>
+ 
+
+
+
+<p id="punto4"></p>
+
+<div id="titulillo"><h2>Un truco útil</h2></div>
+
+
+¿Qué pasaría si nos pasamos un par de horitas definiendo coordenada a coordenada un dibujo complejo y cuando acabamos nos damos cuenta de que queremos MOVER todo el dibujo unos píxeles a la derecha o arriba para que cuadre y encaje en el html correctamente?<br><br>
+Al estar definidas todas las coordenadas píxel a píxel, lo único que podríamos hacer sería mover el SVG entero.<br>
+Para ello podemos colocar al final del código un sencillo '<a href="https://www.html6.es/t14_transformaciones.html" target="_blank">transform</a>' para mover todo el codigo anterior los píxeles que deseemos...
+
+<div id="codigo_largo">
+<pre>&lt;text x="30" y="35" rotate="17 0 -9 11 10 -3" fill="red" stroke="white" stroke-width="2" <span style="color:red">transform="translate(20,5)</span>"&gt;
+  Javier
+&lt;/text&gt;
+</pre>
+</div>
+Con este 'transform' final moveríamos todo el código anterior 20 píxeles a la derecha y 5 píxeles hacia abajo (pudiendo utilizar números negativos si queremos moverlo hacia la izquierda o hacia arriba).
+</section>
+
+<footer>
+	<div id="texto_footer"><br>© Javier López (2015-2019)<br>
+	<a href="mailto:jab@jabmultimedia.com"> <img src="./SVG_files/email.png" align="center"> jab@jabmultimedia.com</a>
+	HTML6.es / JAB Multimedia, S.L.
+	<a href="https://www.html6.es/t6_SVG.html#"><div id="flecha_azul"><img src="./SVG_files/flecha_fondo.png"></div></a>
+</div>
+</footer>
+
+
+</body></html>

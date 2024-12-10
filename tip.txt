@@ -1,0 +1,3 @@
+web development in MDN Web Docs, available at https://developer.mozilla.org
+
+Maintained by Mozilla, the site is full of tutorials for beginners and reference materials on most modern web technologies.

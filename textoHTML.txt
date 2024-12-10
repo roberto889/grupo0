@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+Informa a los navegadores que a continuación van a leer HTML5. Esta línea no es una etiqueta sino una instrucción. Si googleáis encontraréis versiones más extensas pero nosotros no las vamos a usar. Hacen referencia a versiones de html más antiguas.
+
+<html></html> Informa a los navegadores que en su interior es dónde vamos a encontrar el HTML5. Esta etiqueta debe abrirse y cerrarse una única vez por documento web. Justo a continuación de la instrucción !DOCTYPE y al finalizar el documento web.
+
+<head></head> Es la cabecera del documento web. La cabecera del documento web contiene informaciones técnicas para los navegadores web y para los motores de búsqueda. Por ejemplo aquí dentro encontraréis la etiqueta <title> y los <meta>. Sólo debe aparecer un <head> en un documento web y nunca debéis confundirlo con la etiqueta semántica de html5 <header>
+
+<title></title> Informa a los motores de búsqueda cual es el contenido de la página web. Sólo se debe indicar una vez por documento web. Es fundamental para el SEO.
+
+<body></body> Es el cuerpo del documento web. Encierra las etiquetas que van a aportar estructura y contenido a nuestro documento web. También sólo se escribe una única vez por documento web.
+
+------------------------
+
+XML (eXtensible Markup Language, Lenguaje de marcas extensible):
+HTML se utiliza en la interfaz de usuario de una aplicación. 
+XML sirve para intercambiar y transferir datos 
+XHTML (eXtensible Hypertext Markup Language)
+
+
